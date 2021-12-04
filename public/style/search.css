@@ -1,0 +1,56 @@
+.linha_final {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.containerBusca {
+  /* width: 70%; */
+  margin-bottom: 50px;
+  padding: 0;
+  background-color: #eaebec;
+  border-radius: 20px;
+}
+
+.containerBusca img {
+  /* width: 60%; */
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.linha_final .containerBusca h2 {
+  margin-top: 10px;
+}
+
+.desc {
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  /* width: 50%; */
+}
+
+.pesquisaroculto {
+  display: none;
+}
+
+.pesquisar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pesquisar input {
+  height: 30px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.pesquisar button {
+  height: 30px;
+  cursor: pointer;
+  margin-right: 0;
+}

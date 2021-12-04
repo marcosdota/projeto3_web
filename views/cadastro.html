@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<div w3-include-html="./template/head.html"></div>
+
+<body>
+  <div w3-include-html="./template/nav.html"></div>
+  <div class="espc">
+    <h1>Cadastrar novo usuário</h1>
+
+    <div class="apresentaErro"></div>
+
+    <form action="#" method="post" target="_blank">
+      <label for="fname">Login:</label>
+      <input type="text" id="login" name="login"><br><br>
+      <label for="lname">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+      <label for="lpass">Senha:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <label for="lpass">Confirmar Senha:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/public/js/include.js"></script>
+  <script>includeHTML();</script>
+  <script src="/public/js/cadastro.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<div w3-include-html="./template/head.html"></div>
+
+<body>
+  <div w3-include-html="./template/nav.html"></div>
+  <div class="espc">
+    <h1>Login</h1>
+
+    <div class="apresentaErro"></div>
+
+    <label for="femail">Email:</label>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="fsenha">Senha:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Submit">
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/public/js/include.js"></script>
+  <script>includeHTML();</script>
+  <script src="/public/js/login.js"></script>
+</body>
+
+</html>

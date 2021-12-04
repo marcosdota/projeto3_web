@@ -1,0 +1,100 @@
+/* ---- TOPO DA PÁGINA ---- */
+
+/* Cabeçalho */
+header {
+  background-color: #ffffff;
+  height: 72px;
+  width: 100%;
+}
+
+header .container {
+  height: 72px;
+}
+
+/* Flex Container */
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flex Item */
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Botão Oculto do Menu */
+.oculto {
+  display: none;
+}
+
+/* Logo da Unity */
+.logo {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Opções do Menu */
+.opc {
+  font-size: 16px;
+  padding: 0 20px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+}
+
+.opc:hover {
+  color: #2196f3;
+}
+
+.aparece {
+  display: none;
+}
+
+/* Estilo do botão "Get started" */
+.botao {
+  flex: 1; /*Ocupa espaço disponivel*/
+  margin-left: 16px;
+}
+
+.btn {
+  color: #ffffff;
+  background: #2196f3;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+  padding: 0.65rem 0.975rem 0.65rem 0.975rem;
+  align-self: center;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.975rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+/* Estilo do botão dos icones */
+.icones {
+  max-width: 120px;
+  flex: 1;
+  margin-left: 8px;
+}
+
+.icone {
+  padding: 0 8px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+/* Circulo CSS */
+/* https://www.w3schools.com/howto/howto_css_circles.asp */
+.icone:hover {
+  /* height: 25px; */
+  width: 50px;
+  background-color: #c2c2c2;
+  border-radius: 20px;
+}
