@@ -48,6 +48,6 @@ app.use((req, res, next) => {
 */
 
 // Server setup
-app.listen(process.env.PORT || 3000, '0.0.0.0', () => {
+app.listen(process.env.HTTP_PORT || 3000, '0.0.0.0', () => {
   console.log(`Unity: http://localhost:${process.env.HTTP_PORT}`);
 });
