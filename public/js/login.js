@@ -42,8 +42,7 @@ submit.addEventListener('click', async (ev) => {
         if (response.status == 200) {
             //console.log(response.data.user.usuarioId);
             localStorage.setItem('usuario', response.data)
-            //Redirecionar
-            window.location.href = "/";
+            window.location.href = "/views/index.html";
         }
     } catch (e) {
         //https://codepen.io/pivkhan/pen/aOBZxg

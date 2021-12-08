@@ -61,7 +61,6 @@ submit.addEventListener('click', async (ev) => {
             container.innerHTML = '<label><input type="checkbox" class="alertCheckbox" autocomplete="off" /><div class="alert success"><span class="alertClose">X</span><span class="alertText">Cadastrado com sucesso! Você será redirecionado em 5s!<br class="clear"/></span></div></label>';
             const delay = ms => new Promise(res => setTimeout(res, ms));
             await delay(5000);
-            //Redireciona
             window.location.href = "/";
         }
     } catch (e) {
